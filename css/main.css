@@ -3,7 +3,7 @@
 }
 
 @media screen {
-
+    header {background: url(../layout2-assets/hero-image-greece.webp) top center no-repeat; min-height: 527px; width: 100%;}
 }
 
 @media screen and (max-width: 1010px) {
