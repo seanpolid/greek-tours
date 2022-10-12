@@ -6,7 +6,8 @@
 @media screen {
     
     header {background: url(../layout2-assets/hero-image-greece.webp) top center no-repeat; min-height: 527px; width: 100%; position: relative; left: 0}
-    header a {background: url(../layout2-assets/go-greek-tours.png) top center no-repeat; min-height: 92px; width: 107px; position: absolute; left: 10px; top: 10px;}
+    #logo {background: url(../layout2-assets/go-greek-tours.png) top center no-repeat; min-height: 92px; width: 107px; position: absolute; left: 10px; top: 10px;}
+    #logo:focus {border-color: #fff;}
 }
 
 @media screen and (max-width: 1010px) {
