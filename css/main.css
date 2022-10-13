@@ -9,7 +9,7 @@
     .image {background-position: top center; background-repeat: no-repeat; background-size: cover;}
     
     /* Masthead */ 
-    header {background-image: url(../layout2-assets/hero-image-greece.webp); min-height: 527px; width: 100%; position: relative; left: 0}
+    header {background-image: url(../layout2-assets/hero-image-greece.webp); min-height: 527px; position: relative; left: 0}
     #logo {background-image: url(../layout2-assets/go-greek-tours.png); min-height: 92px; width: 107px; position: absolute; left: 10px; top: 10px;}
     #logo:focus {border-color: #fff;}
     header h1 {font: 40px/1.3 'Roboto Slab', serif; color: #00214f; margin: 0 auto; position: relative; top: 320px; width: 90%; text-align: center;}
