@@ -7,6 +7,7 @@
 
     /* General */
     .image {background-position: top center; background-repeat: no-repeat; background-size: cover;}
+    a:focus {outline: 2px dotted #000; outline-offset: 5px;}
     
     /* Masthead */ 
     header {background-image: url(../layout2-assets/hero-image-greece.webp); min-height: 527px; position: relative; left: 0}
