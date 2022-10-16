@@ -35,6 +35,7 @@
     .tours h2 {color: #666; font: 700 16px/1.3 'Roboto Slab', serif; margin-top: 24px;}
     .tours p {padding: 0 19px; margin: 0 0 15px;}
     .tours img {width: 19px; height: 19px;}
+    .tours a[aria-label*="Read more"] {display: block; width: fit-content; margin: 0 auto;}
 
     /* Quote */
     .quote blockquote {color: #666; font: 700 34px/1.3 'Arima Madurai'; width: 80%; padding: 80px 0; text-align: center; margin: 0 auto;}
@@ -91,7 +92,7 @@
 
 @media screen and (max-width: 600px) {
 
-    header input {width: 63%;}
+    #searchField {width: 63%;}
     .tours, .travelSmart, footer {padding-top: 50px; padding-bottom: 50px;}
     .exploreCafe {display: grid; grid-template-rows: auto; justify-content: center; align-content: center;}
     .exploreCafe a {position: static;}
