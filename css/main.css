@@ -79,6 +79,9 @@
     .container {width: 100%;}
     .tours, .travelSmart, footer {padding-left: 50px; padding-right: 50px;}
 
+    /* Tours */
+    .tours {row-gap: 30px;}
+
     /* Travel smart */
     .travelSmart {padding-bottom: 75px;}
     .travelSmart {grid-template-columns: repeat(2, 1fr); grid-template-rows: auto repeat(2, 1fr); gap: 22px 30px;}
@@ -92,9 +95,6 @@
 
     /* General */
     .tours, .travelSmart, footer {padding-left: 46px; padding-right: 46px;}
-
-    /* Tours */
-    .tours {row-gap: 30px;}
 
     /* Footer */
     footer {grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); gap: 40px 0;}
