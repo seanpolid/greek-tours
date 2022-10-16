@@ -1,7 +1,10 @@
 @media all {
+
     body {font: 400 14px/1.3 'Roboto', sans-serif; color: #000;}
     .container {width: 1000px; margin: 0 auto;}
+
 }
+
 
 @media screen {
 
@@ -25,7 +28,7 @@
     #searchButton {padding: 0 30px; background-color: #00214F; color: #fff;}
     #searchButton:focus {outline-color: #fff;}
 
-    /* Greek History */
+    /* Tours */
     .tours {display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0 15px; padding: 80px 110px 94px; background-color: #EDF3EF;}
     .tours section {text-align: center;}
     .tours .image {display: block; min-height: 200px;}
@@ -41,7 +44,7 @@
     .quote blockquote {color: #666; font: 700 34px/1.3 'Arima Madurai'; width: 80%; padding: 80px 0; text-align: center; margin: 0 auto;}
     .quote span {font-size: 18px;}
 
-    /* Explore Cafe Culture */
+    /* Explore cafe culture */
     .exploreCafe {background-image: url(../layout2-assets/cafe-culture.webp); min-height: 543px; position: relative;}
     .exploreCafe a {background-color: #987B31; padding: 20px 0; position: absolute; top: 220px; right: 80px; text-align: center; width: 200px;}
     .exploreCafe a h2 {color: #fff; font: 400 26px/1.3 'Arima Madurai', cursive; margin: 0;}
@@ -66,12 +69,17 @@
     footer aside {text-align: right; display: grid; justify-content: right; grid-template-rows: repeat(2, 1fr); gap: 20px 0;}
     footer aside a {background-image: url(../layout2-assets/twitter-logo.png); max-height: 50px; display: block; width: 60px; justify-self: end; margin: 0;} 
     footer aside p {margin: 0;}
+
 }
+
 
 @media screen and (max-width: 1010px) {
 
+    /* General */
     .container {width: 100%;}
     .tours, .travelSmart, footer {padding-left: 50px; padding-right: 50px;}
+
+    /* Travel smart */
     .travelSmart {padding-bottom: 75px;}
     .travelSmart {grid-template-columns: repeat(2, 1fr); grid-template-rows: auto repeat(2, 1fr); gap: 22px 30px;}
     .travelSmart h2 {grid-column: 1/3; margin-bottom: 3px;}
@@ -79,10 +87,16 @@
 
 }
 
+
 @media screen and (max-width: 800px) {
 
+    /* General */
     .tours, .travelSmart, footer {padding-left: 46px; padding-right: 46px;}
+
+    /* Tours */
     .tours {row-gap: 30px;}
+
+    /* Footer */
     footer {grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); gap: 40px 0;}
     #emailField {width: 98%;}
     footer aside {justify-content: left; margin-top: -9px; gap: 12px 0;}
@@ -90,25 +104,41 @@
 
 }
 
+
 @media screen and (max-width: 600px) {
 
-    
+    /* General */
     .tours, .travelSmart, footer {padding-top: 50px; padding-bottom: 50px;}
+
+    /* Masthead */
     #searchField {width: 63%;}
+
+    /* Tours */ 
     .tours {padding-bottom: 66px;}
+
+    /* Explore cafe culture */ 
     .exploreCafe {display: grid; grid-template-rows: auto; justify-content: center; align-content: center;}
     .exploreCafe a {position: static;}
+
+    /* Travel smart */
     .travelSmart {grid-template-columns: 1fr; grid-template-rows: auto repeat(4, 1fr); padding-bottom: 45px;}
     .travelSmart h2 {grid-column: 1 / 2;}
+
+    /* Footer */
     #emailField {width: 97%;}
 
 }
 
-@media print {
-    #jump, h1, input, button, img, .greekToursNav, .mailList {display: none;}
 
+@media print {
+
+    /* General */
+    #jump, h1, input, button, img, .greekToursNav, .mailList {display: none;}
     body {font-size: 17pt;}
     h2 {font-size: 24pt;}
     a {color: #000; text-decoration: underline;}
+
+    /* Travel smart */
     .travelSmart a:nth-child(n) {display: block; margin-bottom: 20pt;}
+    
 }
