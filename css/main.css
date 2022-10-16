@@ -56,9 +56,9 @@
     footer input[type*="email"]:focus {border: 2px solid #000;}
     footer input[type*="submit"] {color: #fff; background-color: #448CCB; padding: 5px 15px; cursor: pointer; margin-top: 13px; border: 1px solid black;}
     footer input[type*="submit"]:hover, footer input[type*="submit"]:focus {background-color: #000;}
-    .socialMedia {text-align: right; display: grid; justify-content: right; grid-template-rows: repeat(2, 1fr); gap: 20px 0;}
-    .socialMedia a {background-image: url(../layout2-assets/twitter-logo.png); max-height: 50px; display: block; width: 60px; justify-self: end; margin: 0;} 
-    .socialMedia p {margin: 0;}
+    footer aside {text-align: right; display: grid; justify-content: right; grid-template-rows: repeat(2, 1fr); gap: 20px 0;}
+    footer aside a {background-image: url(../layout2-assets/twitter-logo.png); max-height: 50px; display: block; width: 60px; justify-self: end; margin: 0;} 
+    footer aside p {margin: 0;}
 }
 
 @media screen and (max-width: 1010px) {
@@ -78,8 +78,8 @@
     .tours {row-gap: 15px;}
     footer {grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); gap: 40px 0;}
     footer input[type*="email"] {width: 98%;}
-    .socialMedia {justify-content: left; margin-top: -9px; gap: 12px 0;}
-    .socialMedia a {justify-self: left;}
+    footer aside {justify-content: left; margin-top: -9px; gap: 12px 0;}
+    footer aside a {justify-self: left;}
 
 }
 
