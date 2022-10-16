@@ -14,10 +14,10 @@
     #logo:focus {border-color: #fff;}
     header h1 {font: 40px/1.3 'Roboto Slab', serif; color: #00214f; margin: 0 auto; position: relative; top: 320px; width: 90%; text-align: center;}
     header form {position: relative; top: 330px; width: 100%; display: flex; justify-content: center;}
-    header input, header button {font: 16px/1.3 'Roboto Slab', serif; border-radius: 0; border: 0; height: 40px;}
-    header input {top: 10px; width: 36%; padding: 0 10px; box-sizing: border-box;}
-    header input:focus, header button:focus {border: 2px solid #fff;}
-    header button {padding: 0 30px; background-color: #00214F; color: #fff;}
+    #searchField, #searchButton {font: 16px/1.3 'Roboto Slab', serif; border-radius: 0; border: 0; height: 40px;}
+    #searchField {top: 10px; width: 36%; padding: 0 10px; box-sizing: border-box;}
+    #searchButton {padding: 0 30px; background-color: #00214F; color: #fff;}
+    #searchField:focus, #searchButton:focus {border: 2px solid #fff;}
 
     /* Greek History */
     .tours {display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0 15px; padding: 80px 110px; background-color: #EDF3EF;}
