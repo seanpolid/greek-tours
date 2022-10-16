@@ -102,7 +102,7 @@
 }
 
 @media print {
-    h1, input, button, img, .greekToursNav, .mailList {display: none;}
+    #jump, h1, input, button, img, .greekToursNav, .mailList {display: none;}
 
     body {font-size: 17pt;}
     h2 {font-size: 24pt;}
