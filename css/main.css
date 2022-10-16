@@ -59,8 +59,8 @@
     footer li {margin-bottom: 1em;}
     footer ul a {color: #666;}
     footer ul a:hover, footer ul a:focus {color: #000;}
-    footer input[type*="email"] {border: 1px solid #000; padding: 5px; width: 96.5%;}
-    footer input[type*="submit"] {color: #fff; background-color: #448CCB; padding: 5px 15px; cursor: pointer; margin-top: 13px; border: 1px solid black;}
+    #emailField {border: 1px solid #000; padding: 5px; width: 96.5%;}
+    #emailButton {color: #fff; background-color: #448CCB; padding: 5px 15px; cursor: pointer; margin-top: 13px; border: 1px solid black;}
     footer aside {text-align: right; display: grid; justify-content: right; grid-template-rows: repeat(2, 1fr); gap: 20px 0;}
     footer aside a {background-image: url(../layout2-assets/twitter-logo.png); max-height: 50px; display: block; width: 60px; justify-self: end; margin: 0;} 
     footer aside p {margin: 0;}
@@ -82,7 +82,7 @@
     .tours, .travelSmart, footer {padding-left: 46px; padding-right: 46px;}
     .tours {row-gap: 15px;}
     footer {grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); gap: 40px 0;}
-    footer input[type*="email"] {width: 98%;}
+    #emailField {width: 98%;}
     footer aside {justify-content: left; margin-top: -9px; gap: 12px 0;}
     footer aside a {justify-self: left;}
 
