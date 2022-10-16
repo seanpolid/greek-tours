@@ -82,7 +82,7 @@
 @media screen and (max-width: 800px) {
 
     .tours, .travelSmart, footer {padding-left: 46px; padding-right: 46px;}
-    .tours {row-gap: 15px;}
+    .tours {row-gap: 30px;}
     footer {grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); gap: 40px 0;}
     #emailField {width: 98%;}
     footer aside {justify-content: left; margin-top: -9px; gap: 12px 0;}
