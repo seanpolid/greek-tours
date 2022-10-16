@@ -25,7 +25,7 @@
     header form {position: relative; top: 330px; width: 100%; display: flex; justify-content: center;}
     #searchField, #searchButton {font: 16px/1.3 'Roboto Slab', serif; border-radius: 0; border: 0; height: 40px;}
     #searchField {top: 10px; width: 36%; padding: 0 10px; box-sizing: border-box;}
-    #searchButton {padding: 0 30px; background-color: #00214F; color: #fff;}
+    #searchButton {padding: 0 30px; background-color: #00214F; color: #fff; cursor: pointer;}
     #searchButton:focus {outline-color: #fff;}
 
     /* Tours */
@@ -140,5 +140,5 @@
 
     /* Travel smart */
     .travelSmart a:nth-child(n) {display: block; margin-bottom: 20pt;}
-    
+
 }
